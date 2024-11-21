@@ -1,0 +1,17 @@
+Package: RCMsize
+Type: Package
+Title: Functions for Sample Size Calculation in Reversible Catalytic Models
+Version: 0.1.0
+Authors@R: c(
+    person("Márcia", "Graça", email = "marcia_da_graca@hotmail.com", role = c("aut", "cre")))
+Maintainer: The package maintainer <marcia_da_graca@hotmail.com>
+Description: This package provides functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria studies.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: binom, stats
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Suggests: 
+    knitr,
+    rmarkdown

@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(binom, binom.confint)
+importFrom(stats, qnorm)
+importFrom(stats, uniroot)
