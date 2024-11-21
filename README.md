@@ -16,7 +16,7 @@ install.packages("devtools")
 ```
 Once you have devtools installed, you can proceed to install the RCMsize package with the following command:
 ```{r, eval=FALSE}
-devtools::install_github("yourusername/RCMsize")
+devtools::install_github("https://github.com/marciagraca/RCMsize/RCMsize")
 ```
 After the installation is complete, you can load the RCMsize package into your R session by running:
 
