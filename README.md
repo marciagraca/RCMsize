@@ -6,7 +6,7 @@
 
 The goal of RCMsize is to calculate the sample size required for studies where the main outcome measure is the seroconversion rate (SCR).
 It provides tools to compute the probability of an individual being seropositive, given specific parameters such as the seroconversion rate (SCR) , the seroreversion rate (SRR), and the individual's age, using a reversible catalytic model.
-Additionally, the package allows for the calculation of seroprevalence (SP) and its corresponding confidence interval,as well as the confidence interval for the seroconversion rate (SCR).
+Additionally, the package allows for the calculation of seroprevalence (SP) and its corresponding confidence interval, as well as the confidence interval for the seroconversion rate (SCR).
 
 ## Installation
 

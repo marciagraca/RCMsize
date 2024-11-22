@@ -18,7 +18,12 @@
 #' A_max <- 80
 #' age_distribution <- rep(1 / A_max, A_max)
 #' sample_s(0.03, 1, 0.01, age_distribution, A_max, limits = c(0, 1))
-
+#' @details
+#' **Disclaimer**: The sample size function may not produce accurate values for
+#' scenarios involving extremely low SCR (e.g.,
+#' elimination scenarios). Users are advised to exercise caution and consider
+#' the results critically when applying this function to such cases.
+#'
 #' @importFrom stats uniroot
 #' @export
 

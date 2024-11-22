@@ -43,6 +43,12 @@ seroprevalence, and the confidence interval for \code{SCR}.
 Estimates the required sample size so that the confidence interval width
 for SCR does not exceed a specified limit.
 }
+\details{
+**Disclaimer**: The sample size function may not produce accurate values for
+scenarios involving extremely low SCR (e.g.,
+elimination scenarios). Users are advised to exercise caution and consider
+the results critically when applying this function to such cases.
+}
 \examples{
 A_max <- 80
 age_distribution <- rep(1 / A_max, A_max)

@@ -6,7 +6,16 @@
 \alias{RCMsize-package}
 \title{RCMsize: Functions for Sample Size Calculation in Reversible Catalytic Models}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 This package provides functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria studies.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/marciagraca/RCMsize}
+}
+
 }
 \author{
 \strong{Maintainer}: Márcia Graça \email{marcia_da_graca@hotmail.com}
