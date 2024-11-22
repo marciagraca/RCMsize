@@ -1,5 +1,5 @@
 ---
-title: "Using_RCMsize_for_Malaria_Research"
+title: "Using RCMsize for Malaria Research"
 output: 
   rmarkdown::html_vignette:
     toc: true
