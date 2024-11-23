@@ -13,12 +13,13 @@ This package provides functions for calculating sample size and confidence inter
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/marciagraca/RCMsize}
+  \item \url{https://github.com/marciagraca/RCMsize }
+  \item \url{https://marciagraca.github.io/RCMsize/}
 }
 
 }
 \author{
-\strong{Maintainer}: Márcia Graça \email{marcia_da_graca@hotmail.com}
+\strong{Maintainer}: Márcia Graça \email{marcia_da_graca@hotmail.com} [copyright holder]
 
 }
 \keyword{internal}

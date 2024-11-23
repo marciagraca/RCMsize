@@ -60,5 +60,5 @@ sample_s <- function(SCR, RL, SRR, ages, A_max, limits,max_iter = 10000,conf.lev
   if (iter == max_iter) {
     warning("Maximum number of iteration reached")
   }
-  return(list(n = n, ic_sp = ic_sp, ic_scr = ic_scr))
+  return(list(n = n, ci_sp = ic_sp, ci_scr = ic_scr))
 }
