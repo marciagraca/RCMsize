@@ -8,18 +8,19 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-This package provides functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria studies.
+Functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria studies.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/marciagraca/RCMsize }
   \item \url{https://marciagraca.github.io/RCMsize/}
+  \item Report bugs at \url{https://github.com/marciagraca/RCMsize/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Márcia Graça \email{marcia_da_graca@hotmail.com} [copyright holder]
+\strong{Maintainer}: M<U+00E1>rcia Gra<U+00E7>a \email{marcia_da_graca@hotmail.com} [copyright holder]
 
 }
 \keyword{internal}

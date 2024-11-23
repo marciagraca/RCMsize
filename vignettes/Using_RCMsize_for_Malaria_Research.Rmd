@@ -9,18 +9,16 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+
 # Introduction
-This package is designed primarily to calculate the sample size required for studies where the main outcome measure is the seroconversion rate (SCR). It provides tools to compute the probability of an individual being seropositive, given specific parameters such as the seroconversion rate (SCR) , the seroreversion rate (SRR), and the individual's age, using a reversible catalytic model.
-Additionally, the package allows for the calculation of seroprevalence (SP) and its corresponding confidence interval. From the confidence interval of seroprevalence, users can back-transform to obtain the confidence interval for the seroconversion rate. Furthermore, the package allows for the calculation of sample size while controlling for the relative length (width) of the confidence interval for the seroconversion rate.
+This package is designed primarily to calculate the sample size required for studies where the main outcome measure is the seroconversion rate (`SCR`). It provides tools to compute the probability of an individual being seropositive, given specific parameters such as the seroconversion rate (`SCR`) , the seroreversion rate (`SRR`), and the individual's age, using a reversible catalytic model.
+Additionally, the package allows for the calculation of seroprevalence (`SP`) and its corresponding confidence interval. From the confidence interval of seroprevalence, users can back-transform to obtain the confidence interval for the seroconversion rate. Furthermore, the package allows for the calculation of sample size while controlling for the relative length (width) of the confidence interval for the seroconversion rate.
 
 # Installation
-To install the RCMsize package from GitHub, you first need to have the devtools package installed. If you haven't done so yet, you can easily install it using the following command:
-```{r, eval=FALSE}
-install.packages("devtools")
-```
-Once you have devtools installed, you can proceed to install the RCMsize package with the following command:
+To install the RCMsize package from GitHub, use one of the following commands:
 ```{r, eval=FALSE}
 devtools::install_github("https://github.com/marciagraca/RCMsize")
+remotes::install_github("https://github.com/marciagraca/RCMsize")
 ```
 After the installation is complete, you can load the RCMsize package into your R session by running:
 
@@ -95,10 +93,10 @@ This function calculates the confidence interval for seroprevalence using the Wa
 IC_SP_Waldcc(0.25, 100, conf.level = 0.95)
 ```
 
-## **`IC_SCR`** – Confidence Interval for the Seroconversion Rate (SCR)
+## **`IC_SCR`** – Confidence Interval for the Seroconversion Rate (`SCR`)
 
 ### Description:
-This function calculates the confidence interval for the seroconversion rate (SCR) using the confidence interval of seroprevalence. The function uses numerical methods to solve for the SCR that results in the observed seroprevalence.
+This function calculates the confidence interval for the seroconversion rate (`SCR`) using the confidence interval of seroprevalence. The function uses numerical methods to solve for the SCR that results in the observed seroprevalence.
 
 ### Parameters:
 - `SP_interval`: A vector containing the lower and upper limits of the confidence interval for the seroprevalence.
@@ -115,7 +113,7 @@ IC_SCR(c(0.1, 0.2), 0.01, rep(1 / 80, 80), 80, limits = c(0, 1))
 ## **`sample_s`** – Sample Size Calculation
 
 ### Description:
-This function estimates the required sample size so that the relative width of the confidence interval for the seroconversion rate (SCR) is equal to a specified value (`RL`). The function calculates the necessary sample size by iteratively adjusting the sample size until the confidence interval for SCR meets the desired width criteria. This calculation is based on the seroprevalence, confidence intervals for seroprevalence, and the seroconversion rate.
+This function estimates the required sample size so that the relative width of the confidence interval for the seroconversion rate (`SCR`) is equal to a specified value (`RL`). The function calculates the necessary sample size by iteratively adjusting the sample size until the confidence interval for SCR meets the desired width criteria. This calculation is based on the seroprevalence, confidence intervals for seroprevalence, and the seroconversion rate.
 
 ### Parameters:
 - `SCR`: The seroconversion rate.
@@ -142,6 +140,6 @@ the results critically when applying this function to such cases.
 
 # References
 
-For more information on reversible catalytic models, please refer to the following [article](https://rdcu.be/d0lp5).
+For more information on reversible catalytic models, please refer to the following [article](https://link.springer.com/article/10.1186/s12936-015-0661-z).
 
 For details about the binom package, see the [link](https://CRAN.R-project.org/package=binom).

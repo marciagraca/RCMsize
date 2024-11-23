@@ -15,6 +15,5 @@ VignetteBuilder: knitr
 Suggests: 
     knitr,
     rmarkdown
-Logo: man/figures/logo.png
 URL: https://github.com/marciagraca/RCMsize , https://marciagraca.github.io/RCMsize/
 BugReports: https://github.com/marciagraca/RCMsize/issues
