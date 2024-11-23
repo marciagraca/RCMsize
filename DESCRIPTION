@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: c(
     person("Márcia", "Graça", email = "marcia_da_graca@hotmail.com", role = c("aut", "cre","cph")))
 Maintainer: The package maintainer <marcia_da_graca@hotmail.com>
-Description: This package provides functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria studies.
+Description: Functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria studies.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -17,3 +17,4 @@ Suggests:
     rmarkdown
 Logo: man/figures/logo.png
 URL: https://github.com/marciagraca/RCMsize , https://marciagraca.github.io/RCMsize/
+BugReports: https://github.com/marciagraca/RCMsize/issues
