@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria studies.
+Functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria research.
 }
 \seealso{
 Useful links:
