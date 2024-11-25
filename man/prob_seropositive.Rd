@@ -24,5 +24,6 @@ This function calculates the probability of seropositivity based on the age and 
 prob_seropositive(0.03, 0.01, 45)
 }
 \references{
-For more information on the reversible catalytic model, see \url{https://rdcu.be/d0d69}
+For more information on the reversible catalytic model, see
+\url{https://link.springer.com/article/10.1186/s12936-015-0661-z}
 }

@@ -140,6 +140,6 @@ the results critically when applying this function to such cases.
 
 # References
 
-For more information on reversible catalytic models, please refer to the following [article](https://link.springer.com/article/10.1186/s12936-015-0661-z).
+For more information on reversible catalytic models, please refer to the following [article](https://link.springer.com/epdf/10.1186/s12936-015-0661-z?sharing_token=p35paPQECNk2SsN_VfKbBG_BpE1tBhCbnbw3BuzI2RN0kHnUjMYdn1CDr5te1vjhjSRq-RS05qBee7X_8VsbUuXhjK6F5obZwH425PlbFzIJqlQr2ySXYc-G80u9v9eqRp1YBPS_wwZnQIOXUZb9giwBIuM0SeGnxp6wjpdgfRY%3D).
 
 For details about the binom package, see the [link](https://CRAN.R-project.org/package=binom).

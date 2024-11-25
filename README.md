@@ -48,6 +48,6 @@ sample_s(0.03, 1, 0.01, age_distribution, A_max, limits = c(0, 1))
 
 # References
 
-For more information on reversible catalytic models, please refer to the following [article](https://link.springer.com/article/10.1186/s12936-015-0661-zv).
+For more information on reversible catalytic models, please refer to the following [article](https://link.springer.com/epdf/10.1186/s12936-015-0661-z?sharing_token=p35paPQECNk2SsN_VfKbBG_BpE1tBhCbnbw3BuzI2RN0kHnUjMYdn1CDr5te1vjhjSRq-RS05qBee7X_8VsbUuXhjK6F5obZwH425PlbFzIJqlQr2ySXYc-G80u9v9eqRp1YBPS_wwZnQIOXUZb9giwBIuM0SeGnxp6wjpdgfRY%3D).
 
 
