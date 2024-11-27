@@ -20,7 +20,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: M<U+00E1>rcia Gra<U+00E7>a \email{marcia_da_graca@hotmail.com} [copyright holder]
+\strong{Maintainer}: Márcia Graça \email{marcia_da_graca@hotmail.com} [copyright holder]
 
 }
 \keyword{internal}
