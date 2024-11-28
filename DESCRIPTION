@@ -14,6 +14,7 @@ RoxygenNote: 7.3.2
 VignetteBuilder: knitr
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    tools
 URL: https://github.com/marciagraca/RCMsize , https://marciagraca.github.io/RCMsize/
 BugReports: https://github.com/marciagraca/RCMsize/issues
