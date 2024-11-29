@@ -4,11 +4,11 @@
 \name{RCMsize-package}
 \alias{RCMsize}
 \alias{RCMsize-package}
-\title{RCMsize: Functions for Sample Size Calculation in Reversible Catalytic Models}
+\title{RCMsize: Sample Size Calculation in Reversible Catalytic Models}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Functions for calculating sample size and confidence intervals in reversible catalytic models, with applications in malaria research.
+Sample size and confidence interval calculations in reversible catalytic models, with applications in malaria research. Further details can be found in the paper by Sepúlveda and Drakeley (2015, \doi{10.1186/s12936-015-0661-z}).
 }
 \seealso{
 Useful links:
